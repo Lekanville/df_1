@@ -1,0 +1,9 @@
+{
+	"name": "First-DFInstance",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3bd45800-3c70-48b7-b243-e8643607dca3",
+		"tenantId": "4ed11602-8782-45dd-a78d-940770a3db38"
+	}
+}
