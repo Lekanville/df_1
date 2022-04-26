@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "First-DFInstance"
+		},
+		"ADLS_IMDB_accountKey": {
+			"value": ""
+		},
+		"ADLS_first_DL_Lego_accountKey": {
+			"value": ""
+		},
+		"ADLS_IMDB_properties_typeProperties_url": {
+			"value": "https://lekanvilledatalake.dfs.core.windows.net"
+		},
+		"ADLS_first_DL_Lego_properties_typeProperties_url": {
+			"value": "https://lekanvilledatalake.dfs.core.windows.net"
+		},
+		"Http_IMDB_properties_typeProperties_url": {
+			"value": "https://datasets.imdbws.com/"
+		},
+		"Http_MyFirst_properties_typeProperties_url": {
+			"value": "https://cdn.rebrickable.com/media/downloads/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
