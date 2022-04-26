@@ -1,0 +1,13 @@
+{
+	"name": "Http_IMDB",
+	"properties": {
+		"description": "Connection to IMDB",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://datasets.imdbws.com/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
