@@ -1,0 +1,25 @@
+{
+	"name": "DestinationDataset_zlx",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_IMDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "title.basics",
+				"fileSystem": "imdb"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "gzip",
+			"compressionLevel": "Optimal",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
