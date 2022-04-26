@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "title.basics",
+				"fileName": "name.basics.txt.gz",
 				"fileSystem": "imdb"
 			},
 			"columnDelimiter": ",",
